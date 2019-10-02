@@ -2,7 +2,7 @@
 # file: ./homebrew/vars/main.yml
 
 taps:
-  - homebrew/boneyard
+  # - homebrew/boneyard
   - homebrew/cask
   - homebrew/cask-versions
   - homebrew/core
