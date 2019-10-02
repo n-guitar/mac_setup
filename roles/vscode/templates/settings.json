@@ -1,0 +1,16 @@
+// 既定の設定を上書きするには、このファイル内に設定を挿入します
+{
+    "editor.renderIndentGuides": true,
+    "window.zoomLevel": 1,
+    "explorer.confirmDragAndDrop": false,
+    "workbench.sideBar.location": "left",
+    "terminal.integrated.rendererType": "dom",
+    "workbench.colorTheme": "Monokai",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+    "workbench.statusBar.visible": true,
+    "editor.renderControlCharacters": true,
+    "editor.renderWhitespace": "all"
+}

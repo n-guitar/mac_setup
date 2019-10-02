@@ -1,0 +1,71 @@
+---
+# file: ./vsc/vars/main.yml
+
+extensions:
+  # Language
+  - redhat.vscode-yaml
+  - ms-vscode.Go
+  - ms-python.python
+  - rogalmic.bash-debug
+  - rebornix.ruby
+  - ms-vscode.cpptools
+
+  # tools
+  - VisualStudioExptTeam.vscodeintellicode
+  - TabNine.tabnine-vscode
+  - shardulm94.trailing-spaces
+  - ryu1kn.partial-diff
+  - mushan.vscode-paste-image
+  - MS-CEINTL.vscode-language-pack-ja
+  - michaelnewton.textile-preview
+  - mechatroner.rainbow-csv
+  - IBM.output-colorizer
+  - gizak.shortcuts
+  - fabiospampinato.vscode-diff
+  - CoenraadS.bracket-pair-colorizer
+  - christian-kohler.path-intellisense
+  - alefragnani.Bookmarks
+
+  # markdown
+  - yzane.markdown-pdf
+  - hnw.vscode-auto-open-markdown-preview
+
+  # teema/icon
+  - vangware.dark-plus-material
+  - teabyii.ayu
+  - PKief.material-icon-theme
+  - oderwat.indent-rainbow
+  - Equinusocio.vsc-material-theme
+
+  # Visual Studio Live Share
+  - ms-vsliveshare.vsliveshare
+
+  # azure
+  - ms-vscode.azure-account
+  - ms-azuretools.vscode-logicapps
+  - ms-azuretools.vscode-azurefunctions
+
+  # kubernetes
+  - ms-kubernetes-tools.vscode-kubernetes-tools
+  - ipedrazas.kubernetes-snippets
+
+  # docker
+  - ms-azuretools.vscode-docker
+
+  # REST Api tool
+  - humao.rest-client
+
+  # html
+  - hdg.live-html-previewer
+  - formulahendry.auto-close-tag
+
+  # office
+  - GrapeCity.gc-excelviewer
+
+  # git
+  - eamodio.gitlens
+
+  # swagger
+  - Arjun.swagger-viewer
+
+
