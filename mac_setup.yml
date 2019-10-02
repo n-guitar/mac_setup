@@ -7,13 +7,13 @@
   gather_facts: yes
   roles:
     - homebrew
-    # - homebrew_cask
+    - homebrew_cask
     # - mas
     # - macos
     # - awscli
     # - xcode
     # - fonts
-    # - vsc
+    # - vscode
     # - golang
     # - node
     # - pip
