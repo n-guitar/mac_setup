@@ -1,0 +1,32 @@
+---
+# file: ./homebrew/vars/main.yml
+
+taps:
+  - homebrew/boneyard
+  - homebrew/cask
+  - homebrew/cask-versions
+  - homebrew/core
+
+packages:
+  - { name: alfred, state: present }
+  - { name: iterm2, state: present }
+  - { name: google-japanese-ime, state: present }
+  - { name: google-chrome, state: present }
+  - { name: firegox, state: present }
+  - { name: visual-studio-code, state: present }
+  # - { name: awscli, state: present }
+  # - { name: git, state: present }
+  # - { name: hugo, state: present }
+  # - { name: jq, state: present }
+  # - { name: mercurial, state: present }
+  # - { name: mas, state: present } # mas-cli(mac apple store)
+  # - { name: tree, state: present }
+  # - { name: sassc, state: present }
+  # - { name: nkf, state: present }
+  # - { name: fontconfig, state: present }  # for fc-cache
+  # - { name: node, state: present }
+  # - { name: nodebrew, state: present }
+  # - { name: yarn, state: present }
+  # - { name: brotli, state: present }
+  # - { name: mozjpeg, state: present }
+  # - { name: maven, state: present }
