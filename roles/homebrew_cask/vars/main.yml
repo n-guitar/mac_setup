@@ -2,9 +2,36 @@
 # file: ./homebrew_cask/vars/main.yml
 
 packages:
+# tools
   - { name: alfred, state: present }
-  - { name: iterm2, state: present }
+  - { name: coteditor, state: present }
   - { name: google-japanese-ime, state: present }
+  - { name: evernote, state: present }
+  - { name: dash, state: present }
+  - { name: kindle, state: present }
+  - { name: shiftit, state: present }
+  - { name: xmind, state: present }
+  - { name: firealpaca, state: present }
+
+# develop
+  - { name: iterm2, state: present }
+  - { name: docker, state: present }
+  - { name: visual-studio-code, state: present }
+  - { name: vmware-fusion, state: present }
+  - { name: docker, state: present }
+  - { name: postman, state: present }
+  - { name: tunnelblick, state: present }
+  - { name: securid, state: present }
+
+# data tools
+  - { name: mysqlworkbench, state: present }
+  - { name: tableau, state: present }
+  - { name: tableau-prep, state: present }
+
+# browser
   - { name: google-chrome, state: present }
   - { name: firefox, state: present }
-  - { name: visual-studio-code, state: present }
+
+# collaboration tools
+  - { name: station, state: present }
+  - { name: microsoft-teams, state: present }
