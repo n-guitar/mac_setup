@@ -1,0 +1,10 @@
+---
+# file: ./homebrew_cask/vars/main.yml
+
+packages:
+  - { name: alfred, state: present }
+  - { name: iterm2, state: present }
+  - { name: google-japanese-ime, state: present }
+  - { name: google-chrome, state: present }
+  - { name: firegox, state: present }
+  - { name: visual-studio-code, state: present }
