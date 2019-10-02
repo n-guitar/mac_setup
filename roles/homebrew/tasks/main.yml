@@ -3,10 +3,10 @@
 
 - block:
 
-  - name: homebrew update
-    homebrew:
-      update_homebrew: true
-      upgrade_all: yes
+  # - name: homebrew update
+  #   homebrew:
+  #     update_homebrew: true
+  #     upgrade_all: yes
 
   - name: homebrew tap
     homebrew_tap:
