@@ -13,7 +13,7 @@
     # - awscli
     # - xcode
     # - fonts
-    # - vscode
+    - vscode
     # - golang
     # - node
     # - pip
