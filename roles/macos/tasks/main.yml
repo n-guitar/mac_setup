@@ -3,12 +3,12 @@
 
 - block:
 
-  # - name: DNS setting
-  #   shell: networksetup -setdnsservers Wi-Fi 8.8.8.8 8.8.4.4
-  #   tags:
-  #     - dns
+  # # - name: DNS setting
+  # #   shell: networksetup -setdnsservers Wi-Fi 8.8.8.8 8.8.4.4
+  # #   tags:
+  # #     - dns
 
-  - block:
+  # - block:
     - name: set osx defaults
       osx_defaults:
         domain: "{{ item.domain }}"
@@ -40,5 +40,5 @@
   #   tags:
   #     - bash
 
-  tags:
-    - macos
+  # tags:
+  #   - macos
