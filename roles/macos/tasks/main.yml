@@ -9,8 +9,6 @@
   #     - dns
 
   - block:
-    # check defaults
-    # $ defaults read
     - name: set osx defaults
       osx_defaults:
         domain: "{{ item.domain }}"
