@@ -11,8 +11,8 @@
 
   - block:
     # check defaults
-    # $ defaults read
-    - name: AAAset osx defaults
+    # defaults read
+    - name: set osx defaults
       osx_defaults:
         domain: "{{ item.domain }}"
         key: "{{ item.key }}"
