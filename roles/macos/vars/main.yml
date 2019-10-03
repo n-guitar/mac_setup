@@ -1,0 +1,9 @@
+---
+# file: ./macos/vars/main.yml
+
+settings:
+  - { domain: com.apple.AppleMultitouchTrackpad, key: Clicking, type: float, value: 1 }
+  # - { domain: NSGlobalDomain, key: AppleShowAllExtensions, type: bool, value: TRUE }
+  # - { domain: com.apple.dock, key: tilesize, type: float, value: 40 }
+  # - { domain: com.apple.dock, key: autohide, type: bool, value: TRUE }
+  # - { domain: com.apple.menuextra.battery, key: ShowPercent, type: string, value: YES }
