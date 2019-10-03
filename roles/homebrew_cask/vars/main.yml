@@ -17,21 +17,23 @@ packages:
   - { name: iterm2, state: present }
   - { name: docker, state: present }
   - { name: visual-studio-code, state: present }
-  - { name: vmware-fusion, state: present }
-  - { name: docker, state: present }
-  - { name: postman, state: present }
-  - { name: tunnelblick, state: present }
-  - { name: securid, state: present }
-
-# data tools
-  - { name: mysqlworkbench, state: present }
-  - { name: tableau, state: present }
-  - { name: tableau-prep, state: present }
 
 # browser
   - { name: google-chrome, state: present }
   - { name: firefox, state: present }
 
+# 20191003時点cask未対応
 # collaboration tools
-  - { name: station, state: present }
-  - { name: microsoft-teams, state: present }
+  # - { name: station, state: present }
+  # - { name: microsoft-teams, state: present }
+
+# data tools
+  # - { name: mysqlworkbench, state: present }
+  # - { name: tableau, state: present }
+  # - { name: tableau-prep, state: present }
+
+# # develop
+#   - { name: postman, state: present }
+#   - { name: tunnelblick, state: present }
+#   - { name: securid, state: present }
+#   - { name: vmware-fusion, state: present }
