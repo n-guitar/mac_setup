@@ -2,7 +2,7 @@
 # file: ./macos/vars/main.yml
 
 settings:
-  - { domain: com.apple.AppleMultitouchTrackpad, key: Clicking, type: float, value: 1 }
+  - { domain: com.apple.AppleMultitouchTrackpad, key: Clicking, bool: float, value: TRUE }
   # - { domain: NSGlobalDomain, key: AppleShowAllExtensions, type: bool, value: TRUE }
   # - { domain: com.apple.dock, key: tilesize, type: float, value: 40 }
   # - { domain: com.apple.dock, key: autohide, type: bool, value: TRUE }
