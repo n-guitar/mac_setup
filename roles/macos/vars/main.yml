@@ -3,7 +3,7 @@
 
 settings:
   - { domain: com.apple.AppleMultitouchTrackpad, key: Clicking, type: bool, value: TRUE }
-  - { domain: com.apple.AppleMultitouchTrackpad, key: TrackpadThreeFingerTapGesture, type: bool, value: TRUE }
+  - { domain: com.apple.AppleMultitouchTrackpad, key: TrackpadThreeFingerTapGesture, type: int, value: 2 }
   # - { domain: NSGlobalDomain, key: AppleShowAllExtensions, type: bool, value: TRUE }
   # - { domain: com.apple.dock, key: tilesize, type: float, value: 40 }
   # - { domain: com.apple.dock, key: autohide, type: bool, value: TRUE }
